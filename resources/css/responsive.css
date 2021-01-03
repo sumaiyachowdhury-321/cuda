@@ -1,0 +1,164 @@
+/* lg */ 
+@media (min-width: 1200px) {
+
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+     
+     .row{
+     	margin: 0 5rem;
+     }
+     html{
+     	font-size: 57.23%;
+     }
+     .sticky{
+     	width: 97.1%;
+     }
+     .footer-section ul {
+	    margin-left: .2rem;
+    }
+    .footer-section ul li{
+		margin: 2rem;
+	}
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+	
+    .main-nav{
+    	display: none;
+    }
+    .mobile-nav{
+    	display: block;
+    }
+
+	.row{
+     	margin: 0 2rem;
+     	max-width: 81rem;
+     }
+    .client-image{
+    	width: 100%;
+    	float: none;
+    	text-align: center;
+    }
+    .client-review{
+    	width: 90%;
+    	text-align: center;
+    	float: none;
+    }
+    .span_1_of_4{
+    	width: 49.2%;
+    }
+    .col:nth-child(3){
+    	margin-left: 0;
+    }
+    .icon-text{
+    	padding: 1rem 4rem;
+    }
+    .hero-text-box{
+    	width: 75rem;
+    }
+    .logo{
+    	margin-top: 2rem;
+    }
+    .footer-section ul li a{
+	    font-size: 1.6rem;
+	   
+	}
+	.footer-section ul li{
+	    margin: 3rem 1.5rem;
+
+	}
+}
+
+/* xs */
+@media (max-width: 767px) {
+    .row{
+     	margin: 0 2.1rem;
+     }
+       .main-nav{
+    	display: none;
+    }
+    .mobile-nav{
+    	display: block;
+    }
+    .client-image{
+    	width: 100%;
+    	float: none;
+    	text-align: center;
+    }
+    .client-review{
+    	width: 90%;
+    	text-align: center;
+    	float: none;
+    }
+    .span_1_of_4{
+    	width: 49.2%;
+    }
+    .col:nth-child(3){
+    	margin-left: 0;
+    }
+    .icon-text{
+    	text-align: center;
+  
+    }
+    .hero-text-box{
+    	width: 60rem;
+    }
+    .logo{
+    	margin-top: 4rem;
+    }
+    .footer-section ul li a{
+	    font-size: 1.6rem;
+	   
+	}
+	.footer-section ul li{
+	    margin: 3rem 1rem;
+   }
+   .contact-section form{
+	margin: 3rem 0;
+	width: 90%;
+	margin-left: 5%;
+   }
+}
+/* XS Portrait */
+@media (max-width: 479px) {
+	
+	.main-nav{
+    	display: none;
+    }
+    .mobile-nav{
+    	display: block;
+    } 
+  .hero-text-box{
+  	width: 80%;
+
+  }
+  h1{
+  	font-size: 2rem;
+  }
+  .span_1_of_4{
+  	width: 100%;
+  }
+  .footer-section{
+	background: #344b8e;
+    height: 5rem;
+}
+	.footer-section ul {
+		margin-left: 0;
+	}
+  .footer-section ul li a{
+	    font-size: 1.2rem;
+	   
+	}
+	.footer-section ul li{
+	    margin: 1.3rem .7rem;
+	    float: left;
+   }
+   .contact-section form{
+	margin: 3rem 0;
+	width: 100%;
+	
+   }
+}
